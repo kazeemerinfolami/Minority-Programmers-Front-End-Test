@@ -29,6 +29,7 @@ html{
 }
 .Nav-margin{
     margin: 0 10px;
+    font-weight: bolder;
 }
 .inc-nav-icon{
     font-size: 16px;
@@ -38,7 +39,16 @@ html{
     font-size: 16px;
     color: #ffc700;
 }
-
+.imageLogomp{
+    width: 60%;
+}
+.Na-imgmp{
+    width: 30%;
+    margin: 0;
+}
+.active{
+    color: #3030308f !important;
+}
 /*........ incubator Dashboard .......*/
 .Incubator-top-intro{
     display: flex;
@@ -831,10 +841,11 @@ border-radius: 30px;
     text-align: center;
 }
 .Resume-module-completed{
-    background-color: green;
+    background-color: #00AA4F;
+;
 }
 .Resume-module-incompleted{
-    background-color: red;
+    background-color: #FF655B;
 }
 .Resume-module-Start{
     background-color: #fff;

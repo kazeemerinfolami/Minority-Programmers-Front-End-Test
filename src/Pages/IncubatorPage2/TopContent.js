@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 function TopContent() {
     return (
         <div className="Incubator2-body-wrapper">
-            <div><span className="iconify Incubator2-arrowRIght-icon" data-icon="bi:arrow-left-circle-fill" data-inline="false"></span></div>
+            <div><Link exact to="/"><span className="iconify Incubator2-arrowRIght-icon" data-icon="bi:arrow-left-circle-fill" data-inline="false"></span></Link></div>
             <div className="Incubator2-price-wrapper">
                 <img alt="mango-swap-img" src="/assets/images/Frame 313.png" />
                 <div className="Incubator2-img-name">Mangoswap</div>

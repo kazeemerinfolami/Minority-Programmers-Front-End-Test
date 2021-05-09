@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { MainContentData2 } from "../../Data/Data"
 
 function TopContent() {
@@ -31,7 +32,7 @@ function TopContent() {
                                     <div className="mainContent-content4">${D.price1}/${D.price2}</div>
                                     <div>Progress bar</div>
                                     <div className="mainContent-content5">
-                                        <button className="mainContent-contentButton1">Fund Startup</button>
+                                        <Link exact to="/incubator"><button className="mainContent-contentButton1">Fund Startup</button></Link>
                                         <button className="mainContent-contentButton2">Learn more</button>
                                     </div>
                                 </div>
